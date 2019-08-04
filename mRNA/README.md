@@ -20,27 +20,26 @@ transcription initiation:        ==============================
 ```
 
 ```
-DNA:
             +--------+-----------------------------------------------+
-            |promoter|                gene                           |
+DNA:        |promoter|                gene                           |
             +--------+-----------------------------------------------+
                      ^                                               ^
                      |                                               |
                      TSS(transcriptional start site)                 TTS(tanscription termination site)
                      |                                               |
-preRNA:              |                                               |
+                     |                                               |
                      +-----+-----+--------+--------+------+----+-----+
-                     |5'UTR| CDS | intron |   CDS  |intron|CDS |3'UTR|
+preRNA:              |5'UTR| CDS | intron |   CDS  |intron|CDS |3'UTR|
                      +-----+-----+--------+--------+------+----+-----+
                      |           |        |        |      |          |
                      |    exon   | intron |  exon  |intron|    exon  |
                      |           |       /        /       /          /
 第一个外显子不等于第一个CDS片段，而是包含了5'-UTR的区域，某个完整成熟的mRNA同样最后一个外显子等于3'UTR加上最后一个CDS片段
                      |           |     /       /    /           /
-mature RNA:          |           |   /       / /          /
+                     |           |   /       / /          /
                      |           | /       //         /
                 +----+-----+-----+--------+----+-----+------+
-                | cap|5'UTR| CDS |   CDS  |CDS |3'UTR|Poly A|
+mature RNA:     | cap|5'UTR| CDS |   CDS  |CDS |3'UTR|Poly A|
                 +----+-----+-----+--------+----+-----+------+
                            ^                   ^
                            |                   |
