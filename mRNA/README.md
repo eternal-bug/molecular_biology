@@ -44,6 +44,7 @@ mature RNA:     | cap|5'UTR| CDS |   CDS  |CDS |3'UTR|Poly A|
                            ^                   ^
                            |                   |
                            initiation codon    termination codon
+                           (AUG)               (UAA UGA UAG)
 ```
 
 ## 参考
