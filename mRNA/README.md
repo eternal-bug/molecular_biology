@@ -25,7 +25,7 @@ DNA:        |promoter|                gene                           | unknow |
             +--------+-----------------------------------------------+--------+
                      ^                                               ^   ^
                      |                                               |   可能对于转录有影响
-                     TSS(transcriptional start site)                 TTS(tanscription termination site)
+                     TSS(transcriptional start site)                 TTS(tanscription termination site) or TES(transcription end site)
                      |                                               |
                      |                                               |
                      +-----+-----+--------+--------+------+----+-----+
