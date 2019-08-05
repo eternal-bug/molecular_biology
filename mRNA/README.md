@@ -21,34 +21,34 @@ transcription initiation:        ===============================
 
 ```
 
-coordinate: ...-2 -1 0 1 2 3.....
-            +--------+-----------------------------------------------+--------+
-DNA:        |promoter|                gene                           | unknow |
-            +--------+-----------------------------------------------+--------+
-                     ^                                               ^   ^
-                     |                                               |   可能对于转录有影响
-                     TSS(transcriptional start site)                 TTS(tanscription termination site) or TES(transcription end site)
-                     |                                               |
-                     |                                               |
-                     +-----+-----+--------+--------+------+----+-----+
-preRNA:              |5'UTR| CDS | intron |   CDS  |intron|CDS |3'UTR|
-                     +-----+-----+--------+--------+------+----+-----+
-                     |           |        |        |      |          |
-                     |    exon   | intron |  exon  |intron|    exon  |
-                     |           |       /        /       /          /
+coordinate: ... -3 -2 -1 0 1 2 3 ...
+      +---------+--------+-----------------------------------------------+---------+
+DNA:  | unknown |promoter|                gene                           | unknown |
+      +---------+--------+-----------------------------------------------+---------+
+                         ^                                               ^   ^
+                         |                                               |   可能对于转录有影响
+                         TSS(transcriptional start site)                 TTS(tanscription termination site) or TES(transcription end site)
+                         |                                               |
+                         |                                               |
+                         +-----+-----+--------+--------+------+----+-----+
+preRNA:                  |5'UTR| CDS | intron |   CDS  |intron|CDS |3'UTR|
+                         +-----+-----+--------+--------+------+----+-----+
+                         |           |        |        |      |          |
+                         |    exon   | intron |  exon  |intron|    exon  |
+                         |           |       /        /       /          /
 第一个外显子不等于第一个CDS片段，而是包含了5'-UTR的区域，某个完整成熟的mRNA同样最后一个外显子等于3'UTR加上最后一个CDS片段
-                     |           |     /       /    /           /
-                     |           |   /       / /          /
-                     |           | /       //         /
-                +----+-----+-----+--------+----+-----+------+
-mature RNA:     | cap|5'UTR| CDS |   CDS  |CDS |3'UTR|Poly A|
-                +----+-----+-----+--------+----+-----+------+
-                           ^                   ^
-                           |                   |
-                           initiation codon    termination codon
-                           (AUG)               (UAA UGA UAG)
-                           |-------------------|
-                             coding amino acid
+                         |           |     /       /    /           /
+                         |           |   /       / /          /
+                         |           | /       //         /
+                    +----+-----+-----+--------+----+-----+------+
+mature RNA:         | cap|5'UTR| CDS |   CDS  |CDS |3'UTR|Poly A|
+                    +----+-----+-----+--------+----+-----+------+
+                               ^                   ^
+                               |                   |
+                               initiation codon    termination codon
+                               (AUG)               (UAA UGA UAG)
+                               |-------------------|
+                                 coding amino acid
 ```
 
 ## 参考
