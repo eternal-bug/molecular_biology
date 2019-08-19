@@ -32,6 +32,8 @@ shelf: 2-4 kb from CpG island
 Open Sea: Isolated CpGs in the genome
 ```
 
+![](https://github.com/eternal-bug/molecular_biology/blob/master/CpG/pic/CpGisland.PNG)
+
 
 ## 参考
 + [How to measure DNA methylation - Alix Groom](http://www.bristol.ac.uk/caite/geocode/newcastleshortcourse/howtomeasuredna.pdf)
